@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Comedy</title>
+  <meta name="description" content="Comedy">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+</head>
+
+<body>
+  <div id="includedContent"></div>
+
+  <ul class = "mList">
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'pblart')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/paul_blart.jpg" alt="Comedy" height="500" width="300"/>
+          <figcaption><p><br>Paul Blart: Mall Cop 2(2015)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "pblart" class = "tabcontent">
+        <h3>Paul Blart: Mall Cop 2(2015)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b_ld3IJ0sUU"
+         frameborder="0" allowfullscreen></iframe>
+        <p>No. Stop. Please. It’s not funny anymore. It never was</p>
+        <p class="rating">0 Fat Guys on a Segway out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'interview')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/the-interview-poster1.jpg" alt="Comedy" height="500" width="300"/>
+          <figcaption><p><br>The Interview(2014)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "interview" class = "tabcontent">
+        <h3>The Interview(2014)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DkJA1rb8Nxo"
+         frameborder="0" allowfullscreen></iframe>
+        <p>James Franco and Seth Rogen apparently decided to wage “cyber warfare” with North Korea in late 2014.
+        <br>I’m of the opinion that the North Korean hacking of Sony’s movie studio was all faked
+        <br>to get more press for this movie. AND IT WORKED.
+        <br>Brilliant. Seriously. It got everyone to see this movie that was causing so much international strife,
+        <br>and it turned out it was just a mediocre comedy. </p>
+        <p class="rating">10 Kim Jong Uns Singing Katy Perry out of 10.</p>
+      </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'guide')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/hitchhikersguide.jpg" alt="Comedy" height="500" width="300"/>
+          <figcaption><p><br>The Hitchhiker's Guide to the Galaxy(2005)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "guide" class = "tabcontent">
+        <h3>The Hitchhiker's Guide to the Galaxy(2005)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eLdiWe_HJv4"
+        frameborder="0" allowfullscreen></iframe>
+        <p>Incredible books, not so incredible movie.
+        <br>This film does indeed capture some of the droll humor that makes the Hitchhiker’s Guide books so amazing,
+        <br>but fails to make it into any sort of a coherent plot.
+        <br>They tried to squeeze 4 or 5 movies worth of content into an hour and a half
+        <br> and the whole thing feels like a jumbled mess.
+        <br>Don’t watch this unless you really love that dude from the Hobbit.</p>
+        <p class="rating">5 Sad Robots out of 10.</p>
+      </div>
+    </li>
+
+  </ul>
+</body>

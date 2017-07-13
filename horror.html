@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Horror</title>
+  <meta name="description" content="Horror">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+</head>
+
+<body>
+  <div id="includedContent"></div>
+
+  <ul class = "mList">
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'evDead')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/Evil-Dead-poster-2.jpg" alt="Horror" height="500" width="300"/>
+          <figcaption><p><br>Evil Dead(2013)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "evDead" class = "tabcontent">
+        <h3>Evil Dead(2013)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BHDJm1D2ELw"
+        frameborder="0" allowfullscreen></iframe>
+        <p>Some young adults get trapped at a spooky cabin,
+        <br>with a spooky basement,
+        <br>and a spooky book.
+        <br>IT’S THE SPOOKY TRIFECTA.
+        <br>Oh and also a basement full of dead cats. So anyway, they find this book bound in HUMAN SKIN,
+        <br>and of course one of them reads the words aloud, because WHY NOT?!?
+        <br>I’ll leave the rest to your imagination, so I don’t spoil it.</p>
+        <p class="rating"> 8.5 Dismembered Attractive People out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'jPark')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/jurassicpark.jpg" alt="Horror" height="500" width="300"/>
+          <figcaption><p><br>Jurassic Park(1993)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "jPark" class = "tabcontent">
+        <h3>Jurassic Park(1993)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lc0UehYemQA"
+        frameborder="0" allowfullscreen></iframe>
+        <p>This movie gave me nightmares from ages 2-5 (possibly 7… or 20…)
+        <br>But for real, if the T-Rex scene didn’t scare you, you were either not at a very impressionable age,
+        <br>or you’re superhuman.
+        <br>The special effects in this movie were groundbreaking at the time,
+        <br>so you have to give it some serious props for that.</p>
+        <p class="rating">9 Steaming Hot Piles of Dinosaur Shit out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'psycho')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/americanPsycho.jpg" alt="Horror" height="500" width="300"/>
+          <figcaption><p><br>American Psycho(2000)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "psycho" class = "tabcontent">
+        <h3>American Psycho(2000)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2GIsExb5jJU"
+        frameborder="0" allowfullscreen></iframe>
+        <p>This movie isn’t scary at all. What it is, however, is creepy.
+        <br>Just about everything the main character, a wealthy Wall Street dude named Patrick Bateman,
+        <br>does, is SO unsettling. At one point in the movie he tries to feed an ATM machine a stray cat….
+        <br>BUT, he hits a character played by Jared Leto in the face with an axe though,
+        <br>and after Leto’s disgustingly bad performance as the Joker in Suicide Squad,
+        <br>I’d say that was pretty satisfying to watch</p>
+        <p class="rating">8 Chainsaws Dropped on a Hooker out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'silence')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/deadSilence.jpg" alt="Horror" height="500" width="300"/>
+          <figcaption><p><br>Dead Silence(2007)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "silence" class = "tabcontent">
+        <h3>Dead Silence(2007)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8b_HVtHmK30"
+        frameborder="0" allowfullscreen></iframe>
+        <p>This is one of those movies that’s really only scary until you notice how mind numbingly stupid it is.
+        <br>This movie's plot SUCKS. It’s about some scary ghosty lady that collects
+        <br>tongues because she doesn’t like talking or some shit.
+        <br>Watch this movie if you want a good excuse to turn off your TV, go outside for a while,
+        <br>and rethink your horrible choice in movie selection.</p>
+        <p class="rating">3 Footlong Tongues out of 10.</p>
+        </div>
+    </li>
+  </ul>
+</body>

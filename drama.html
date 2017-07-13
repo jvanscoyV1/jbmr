@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Drama</title>
+  <meta name="description" content="Drama">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+</head>
+
+<body>
+  <div id="includedContent"></div>
+
+  <ul class = "mList">
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'requiem')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/requiem.jpg" alt="Drama" height="500" width="300"/>
+          <figcaption><p><br>Requiem for a Dream(2000)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "requiem" class = "tabcontent">
+        <h3>Requiem for a Dream(2000)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jzk-lmU4KZ4"
+        frameborder="0" allowfullscreen></iframe>
+        <p>Do you like drugs kids? Do you think drugs are FUN?! Watch this movie.
+        <br>Drugs are not fun.
+        <br>Requiem for a Dream tells the story of four addicts as they break down
+        <br>mentally, physically, and emotionally. Really well done cinematography that
+        <br>makes you feel just as strung out and confused as the main characters. Very unique. Very good</p>
+        <p class="rating">8.9 Dirty Needles out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'greenMile')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/the-green.jpg" alt="Drama" height="450" width="300"/>
+          <figcaption><p><br>The Green Mile(1999)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "greenMile" class = "tabcontent">
+        <h3>The Green Mile(1999)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ctRK-4Vt7dA"
+        frameborder="0" allowfullscreen></iframe>
+        <p>When was the last time you had a good cry?
+        <br>If it’s been a while, watch this. If The Green Mile doesn’t at least
+        <br>make a single tear drop stream down your cheek, you must be as emotionally open
+        <br>as a brick wall with deep seeded issues from its childhood</p>
+        <p class="rating"> 10 Giant Magic Black Guys out of 10. </p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'gravity')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/gravity.jpg" alt="Drama" height="500" width="300"/>
+          <figcaption><p><br>Gravity(2013)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "gravity" class = "tabcontent">
+        <h3>Gravity(2013)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OiTiKOy59o4"
+        frameborder="0" allowfullscreen></iframe>
+        <p>This movie is stupid.
+        <br>I was promised George Clooney would be in it. But NOOOO
+        <br>that dude gets sucked into space like 10 minutes in and the rest of the movie
+        <br>is just Sandra Bullock alone in orbit. WEAK.
+        <br>Who wants to watch that?! Actually apparently a lot of people
+        <br>because I’m pretty sure it did well at the box office.</p>
+        <p class="rating"> Oh well. 6 Lonely Astronauts out of 10.</p>
+        </div>
+    </li>
+
+  </ul>
+</body>

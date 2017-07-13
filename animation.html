@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Animation</title>
+  <meta name="description" content="Animation">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+
+</head>
+
+<body>
+  <div id="includedContent"></div>
+  <ul class = "mList">
+
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'frozen')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/Frozen.jpg" alt="Animation" height="450px" width="300px"/>
+          <figcaption><p><br>Frozen(2013)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "frozen" class = "tabcontent">
+        <h3>Frozen(2013)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TbQm5doF_Uc"
+        frameborder="0" allowfullscreen></iframe>
+        <p>All hail lord Disney. How on Earth do they keep doing it???
+          <br>This is yet another in a series of great animated films produced by Disney/Pixar, with lovable characters,
+          <br>smart(ish) humor, and a great overarching message about the importance of family and all that crap.
+          <br>I would give this a 10 out of 10,
+          <br>but I’m subtracting 0.001 of a point for every time I was forced to hear that awful song
+          <br>(it shall remain unnamed).</p>
+          <p class="rating">8.317 Bleeding Ears out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'legos')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/legomovie.jpg" alt="Animation" height="450px" width="300px"/>
+          <figcaption><p><br>The Lego Movie(2014)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "legos" class = "tabcontent">
+        <h3>The Lego Movie(2014)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fZ_JOBCLF-I"
+        frameborder="0" allowfullscreen></iframe>
+        <p>The Lego Movie is a masterpiece.
+        <br> Okay maybe not a masterpiece but it’s pretty damn good.
+        <br>Somehow, magically, this movie turned out good. It’s literally about Legos.
+        <br>LEGOS.
+        <br>For some reason that sounds super stupid to me, but maybe that’s just me.
+        <br>There’s a star studded cast, including Morgan Freeman as the old black guy that explains everything (typical),
+        <br>that guy from Arrested Development as Batman, and my homeboy Chris Pratt as the main character</p>
+        <p class="rating">9 Will Ferrells Playing with Legos out of 10.</p>
+        </div>
+    </li>
+  </ul>
+</body>

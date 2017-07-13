@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Crime</title>
+  <meta name="description" content="Crime">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+</head>
+
+<body>
+  <div id="includedContent"></div>
+
+  <ul class = "mList">
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'rdogs')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/reservoirdogs.jpg" alt="Crime" height="500" width="300"/>
+          <figcaption><p><br>Reservoir Dogs(1992)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "rdogs" class = "tabcontent">
+        <h3>Reservoir Dogs(1992)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vayksn4Y93A"
+        frameborder="0" allowfullscreen></iframe>
+        <p>One of Quentin Tarantino’s breakthrough movies.
+        <br>Full of dialogue with a certain intensity that’ll leave your cheeks clenched the whole time
+        <br>as you figure out what exactly happened during a robbery gone wrong.
+        <br>I’ll give you a little hint as to what’s going on: someone’s a cop.</p>
+        <p class="rating">9 Police Officers soaked in Gasoline out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'escape')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/escapeplan.jpg" alt="Crime" height="500" width="300"/>
+          <figcaption><p><br>Escape Plan(2013)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "escape" class = "tabcontent">
+        <h3>Escape Plan(2013)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CI4EjV_x_PQ"
+        frameborder="0" allowfullscreen></iframe>
+        <p>Hey guys remember when Arnold Schwarzenegger and Sylvester Stallone were cool??
+        <br>Me neither, because that was like 20 something years ago.
+        <br>Just kidding, both of those guys are a-okay in my book.
+        <br>Stallone plays a guy that prisons pay to have him try to escape them (to test security and what not),
+        <br>but this time, THERE IS NO ESCAPING. Now he and some old German-ish dude need to work together
+        <br>to get the eff out of there.
+        <br>Definitely an okay movie, but don’t go out of your way to see it.</p>
+        <p class="rating">6.8 Over The Hill Actors out of 10.</p>
+        </div>
+    </li>
+    <li>
+      <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'nocountry')">
+        <figure>
+          <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+          <img class="poster" src="assets/images/no.jpg" alt="Crime" height="500" width="300"/>
+          <figcaption><p><br>No Country For Old Men (2007)</p></figcaption>
+        </figure>
+      </a>
+      <div id = "nocountry" class = "tabcontent">
+        <h3>No Country For Old Men (2007)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/38A__WT3-o0"
+        frameborder="0" allowfullscreen></iframe>
+        <p>This movie has one of the creepiest bad guys in movie history.
+        <br>He’s just your average dude, with one of those cattle killing metal rod shooty thingies,
+        <br>and an utter lack of regard for human life.
+        <br>A drug deal gone bad leaves a mess of bodies and an unclaimed two million dollars.
+        <br>The money is found by an unassuming ex-special forces Vietnam vet, and chaos ensues.</p>
+        <p class="rating">9 Intense Coin Flips out of 10.</p>
+        </div>
+    </li>
+
+  </ul>
+</body>

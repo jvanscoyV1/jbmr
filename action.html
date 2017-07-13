@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JBMR - Action</title>
+  <meta name="description" content="Action">
+  <meta name="author" content="Jake VanScoy">
+  <link rel="stylesheet" href="assets/css/moviestyles.css">
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+   <script>
+   $(function(){
+     $("#includedContent").load("navbar.html");
+   });
+   </script>
+
+</head>
+
+<body>
+  <div id="includedContent"></div>
+
+    <ul class = "mList">
+      <li>
+        <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'jwick')">
+          <figure>
+            <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+            <img class="poster" src="assets/images/johnwick.jpg" alt="action"/>
+            <figcaption><p><br>John Wick(2014)</p></figcaption>
+          </figure>
+        </a>
+        <div id = "jwick" class = "tabcontent">
+          <h3>John Wick(2014)</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2AUmvWm5ZDQ"
+           frameborder="0" allowfullscreen></iframe>
+          <p>THIS MOVIE. Fantastic. You have a badass dude, a bunch of expendable bad guys,<br>
+            and a good reason for Mr. Badass to murder every single one of them.<br>
+            Keanu Reeves absolutely KILLS IT as John Wick. The soundtrack is amazing,<br>
+            the gun/knife/fist fights are expertly directed and acted out,<br>
+            and the dude who plays Theon Greyjoy gets shot in the face.</p>
+            <p class="rating">10 Expendable Henchmen out of 10.</p>
+          </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'gotg')">
+          <figure>
+            <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+            <img class="poster" src="assets/images/gotg.jpg" alt="action" height="450" width="300"/>
+            <figcaption><p><br>Guardians of the Galaxy(2014)</p></figcaption>
+          </figure>
+        </a>
+        <div id = "gotg" class = "tabcontent">
+          <h3>Guardians of the Galaxy(2014)</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/d96cjJhvlMA"
+          frameborder="0" allowfullscreen></iframe>
+          <p>Disney/Marvel does it again with another high quality superhero flick.<br>
+             Seriously guys, they’re pretty effing good at this.<br>
+             Chris Pratt is incredible as Starlord, if I had to choose one dude to be gay with I’d choose him,<br>
+             hands down (sorry Ryan Reynolds).<br>
+             The chemistry between the members of the Guardians is fantastic, and the characters feel real.<br></p>
+             <p class = "rating">8.5 Dancing Groots out of 10.</p>
+          </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)" class="tablinks" onclick="openRev(event, 'dkr')">
+          <figure>
+            <img class="posterframe" src="assets/images/posterframe.png" alt="frame" height="500" width="350"/>
+            <img class="poster" src="assets/images/dkr.jpg" alt="action" height="450" width="300"/>
+            <figcaption><p><br>The Dark Knight Rises(2012)</p></figcaption>
+          </figure>
+        </a>
+        <div id = "dkr" class = "tabcontent">
+          <h3>The Dark Knight Rises(2012)</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GokKUqLcvD8"
+          frameborder="0" allowfullscreen></iframe>
+          <p>Christian Bale causes himself permanent vocal cord damage for the third time starring as Batman<br>
+             in the final film of Christopher Nolan’s Batman trilogy.<br>
+             It’s not perfect, there are oodles of plot holes, but the action is great,<br>
+             and Anne Hathaway wears skintight leather through a significant portion of the film.<br></p>
+             <p class = "rating">7.5 'WHERES RACHEL's out of 10.</p>
+          </div>
+      </li>
+    </ul>
+
+
+
+</body>
